@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .basicinfo {
+            background: rgb(230, 230, 230);
+        }
+        .education {
+            background: rgb(252, 232, 232);
+        }
+        h1, h2, h3 {
+            font-family: 'Fira Sans', sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="basicinfo">
+        <h1>Name: {{ name }}</h1>
+        <h2>Location: {{ location }}</h2>
+        <h3>Phone Number: {{ phone }}</h3>
+    </div>
+    <div class="education">
+        <h1>Education</h1>
+        <h2>Highest Qualification(with % or GPA): {{ highqual }}</h2>
+        <h2>10th Marks: {{ ten }}</h2>
+        <h2>12th Marks: {{ twelve }} </h2>
+    </div>
+
+</body>
+</html>
